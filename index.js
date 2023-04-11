@@ -128,4 +128,4 @@ const getAARData = (data) => {
   return group;
 };
 
-console.log(getAARData(mock));
+console.log(getData(data, 'LOB_VAL', 'iPhone'));
