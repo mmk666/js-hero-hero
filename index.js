@@ -1,6 +1,38 @@
 import data from './mock.json';
 import mock from './mock2.json';
 
+const getWOW = (item) => {
+  const C_value = Math.round(item?.C_MEASURE_VAL);
+  const P_value = Math.round(item?.P_MEASURE_VAL);
+
+  if (C_value == 0) {
+    return '-100%';
+  } else if (P_value == 0) {
+    return '-';
+  }
+
+  return `${Math.round((C_value / P_value - 1) * 100)}%`;
+};
+
+const getYOY = (item, type) => {
+  const C_value = Math.round(item?.C_MEASURE_VAL);
+  const P_value = Math.round(
+    type === 'YoY-3'
+      ? item?.PPPY_MEASURE_VAL
+      : type === 'YoY-2'
+      ? item?.PPY_MEASURE_VAL
+      : item?.PY_MEASURE_VAL
+  );
+
+  if (C_value == 0) {
+    return '-100%';
+  } else if (P_value == 0) {
+    return '-';
+  } else {
+    return `${Math.round((C_value / P_value - 1) * 100)}%`;
+  }
+};
+
 const groupByKey = (data = [], key) => {
   const y = data?.reduce((obj, item) => {
     obj[item[key]] = obj[item[key]] ? [...obj[item[key]], item] : [item];
@@ -11,17 +43,13 @@ const groupByKey = (data = [], key) => {
 };
 
 const getValue = (x, y) => {
-  console.log(x, 'x');
-  console.log(y, 'y');
   if (
     x === '' ||
-    x === NaN ||
     x === null ||
-    x === 0.0 ||
+    Math.round(x) === 0 ||
     y === '' ||
     y === null ||
-    y === 0 ||
-    y === NaN
+    Math.round(y) === 0
   ) {
     return 0;
   }
