@@ -1,0 +1,232 @@
+[
+  {
+    "FISCAL_WEEK_YEAR": 202307,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 542,
+    "P_MEASURE_VAL": 437,
+    "PY_MEASURE_VAL": 193,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202308,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 882,
+    "P_MEASURE_VAL": 542,
+    "PY_MEASURE_VAL": 195,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202309,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 1350,
+    "P_MEASURE_VAL": 882,
+    "PY_MEASURE_VAL": 653,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202310,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 707,
+    "P_MEASURE_VAL": 1350,
+    "PY_MEASURE_VAL": 647,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202311,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 413,
+    "P_MEASURE_VAL": 707,
+    "PY_MEASURE_VAL": 270,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202312,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_AC_RPTD_QTY",
+    "C_MEASURE_VAL": 30,
+    "P_MEASURE_VAL": "",
+    "PY_MEASURE_VAL": "",
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202312,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 622,
+    "P_MEASURE_VAL": 413,
+    "PY_MEASURE_VAL": 518,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202313,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_AC_RPTD_QTY",
+    "C_MEASURE_VAL": 34,
+    "P_MEASURE_VAL": 30,
+    "PY_MEASURE_VAL": "",
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202313,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 516,
+    "P_MEASURE_VAL": 622,
+    "PY_MEASURE_VAL": 419,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202314,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_AC_RPTD_QTY",
+    "C_MEASURE_VAL": 38,
+    "P_MEASURE_VAL": 34,
+    "PY_MEASURE_VAL": "",
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202314,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 373,
+    "P_MEASURE_VAL": 516,
+    "PY_MEASURE_VAL": 340,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202315,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_AC_RPTD_QTY",
+    "C_MEASURE_VAL": 30,
+    "P_MEASURE_VAL": 38,
+    "PY_MEASURE_VAL": "",
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202315,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 418,
+    "P_MEASURE_VAL": 373,
+    "PY_MEASURE_VAL": 195,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202316,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_AC_RPTD_QTY",
+    "C_MEASURE_VAL": 39,
+    "P_MEASURE_VAL": 30,
+    "PY_MEASURE_VAL": "",
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202316,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 295,
+    "P_MEASURE_VAL": 418,
+    "PY_MEASURE_VAL": 291,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202317,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_AC_RPTD_QTY",
+    "C_MEASURE_VAL": 34,
+    "P_MEASURE_VAL": 39,
+    "PY_MEASURE_VAL": "",
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202317,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 237,
+    "P_MEASURE_VAL": 295,
+    "PY_MEASURE_VAL": 331,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202318,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_AC_RPTD_QTY",
+    "C_MEASURE_VAL": 49,
+    "P_MEASURE_VAL": 34,
+    "PY_MEASURE_VAL": "",
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202318,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 315,
+    "P_MEASURE_VAL": 237,
+    "PY_MEASURE_VAL": 270,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202319,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_AC_RPTD_QTY",
+    "C_MEASURE_VAL": 51,
+    "P_MEASURE_VAL": 49,
+    "PY_MEASURE_VAL": "",
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202319,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 283,
+    "P_MEASURE_VAL": 315,
+    "PY_MEASURE_VAL": 281,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202320,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_AC_RPTD_QTY",
+    "C_MEASURE_VAL": 48,
+    "P_MEASURE_VAL": 51,
+    "PY_MEASURE_VAL": "",
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  },
+  {
+    "FISCAL_WEEK_YEAR": 202320,
+    "DISPLAY_NAME": "Apple Care",
+    "MEASURE_NAME": "ST_RPTD_QTY",
+    "C_MEASURE_VAL": 265,
+    "P_MEASURE_VAL": 283,
+    "PY_MEASURE_VAL": 372,
+    "PPY_MEASURE_VAL": "",
+    "PPPY_MEASURE_VAL": ""
+  }
+]
