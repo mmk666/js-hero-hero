@@ -95,8 +95,8 @@ const getData = (data = [], key, val, groupKey) => {
   return {};
 };
 
-const getAARData = (data) => {
-  const arr = data.map((item) => {
+const getAccAttachRateData = (data) =>
+  data.map((item) => {
     return {
       FISCAL_WEEK_YEAR: item?.FISCAL_WEEK_YEAR,
       ATTACH_TYPE: item?.ATTACH_TYPE,
@@ -124,8 +124,26 @@ const getAARData = (data) => {
     };
   });
 
+const getAccAttachRateDataGroupBy = (data) => {
+  const arr = getAccAttachRateData(data);
   const group = groupByKey(arr, 'ACCESSORY_DISPLAY_NAME');
   return group;
 };
 
-console.log(getData(data, 'LOB_VAL', 'iPhone'));
+const getHerorToHeroData = (data = []) => {
+  return getData(data, 'LOB_VAL', 'iPhone', 'LOB_VAL');
+};
+
+const getAppleToCareData = (data = []) => {
+  return getData(data, 'MEASURE_NAME', 'ST_RPTD_QTY', 'DISPLAY_NAME');
+};
+
+const getTrendList = (data = [], key, val, yearType, attachRateType) => {
+  if (Array.isArray(data)) {
+    const arr = generateData(data, key, val);
+    return obj;
+  }
+  return [];
+};
+
+console.log(getData(data, 'LOB_VAL', 'iPhone', 'LOB_VAL'));
