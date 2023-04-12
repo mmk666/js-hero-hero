@@ -146,4 +146,33 @@ const getTrendList = (data = [], key, val, yearType, attachRateType) => {
   return [];
 };
 
-console.log(getData(data, 'LOB_VAL', 'iPhone', 'LOB_VAL'));
+
+const generateList = (data, BMdata, key, yoyType) => {
+
+  return Object.keys(data).reduce((acc, item, index) => {
+    const date = data[item].reduce((accum, subItem) => Math.round(subItem?.FISCAL_WEEK_YEAR) > accum ? subItem?.FISCAL_WEEK_YEAR : accum, 0)
+    const obj = data[item].find(subItem => subItem?.FISCAL_WEEK_YEAR === date)
+    const BMobj = BMdata[item].find(subItem => subItem?.FISCAL_WEEK_YEAR === date)
+    const finalObj = {
+      id: index,
+      name: obj[key],
+      wow: getWOW(obj),
+      yoy: getYOY(obj, yoyType),
+      benchmark: getYOY(BMobj, yoyType),
+      selected: index === 0
+    }
+    acc.push(finalObj)
+    return acc
+  }, [])
+
+
+}
+
+const x = (data) => {
+  const arr = getAccAttachRateDataGroupBy(mock, 'LOB_VAL', 'iPhone', 'LOB_VAL')
+  const list = generateList(arr, arr, 'LOB_VAL', 'YoY')
+  return list;
+}
+
+console.log(x(data));
+console.log()
